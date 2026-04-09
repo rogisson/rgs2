@@ -1,0 +1,9 @@
+soma = 0
+
+numero = float(input("Digite um número (0 para parar): "))
+
+while numero != 0:
+    soma = soma + numero
+    numero = float(input("Digite outro número (0 para parar): "))
+
+print("Total:", soma)
